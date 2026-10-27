@@ -5,7 +5,7 @@
 */
 const REXY_DOWNLOADS = {
   androidApkUrl: "download/app-debug.apk", // APK included in the download folder
-  webAppUrl: ""      // e.g. "https://your-rexy-web-app.example.com"
+  webAppUrl: "https://github.com/Vince-cmd-alt/dinodev/releases/latest/download/app-debug.apk"      // e.g. "https://your-rexy-web-app.example.com"
 };
 
 const menuToggle = document.getElementById("menuToggle");
