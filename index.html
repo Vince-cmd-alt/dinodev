@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#b8f2d0" />
+  <meta name="description" content="Meet Rexy and explore a world of fun, inclusive learning. Download the REXY APP." />
+  <title>REXY APP — Big Adventures, Brighter Learning!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="comic-sky" aria-hidden="true">
+    <span class="dot-cloud cloud-one"></span><span class="dot-cloud cloud-two"></span>
+    <span class="spark spark-one">✦</span><span class="spark spark-two">✦</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="REXY APP home">
+    <div class="partner-logos" aria-label="Team and game logos">
+      <img src="logos/team.png" alt="Team logo" loading="lazy" />
+      <img src = "logos/game.png" alt = "Game logo" loading="lazy" />
+    </div>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#games">Explore Games</a>
+      <a href="#grownups">For Grown-Ups</a>
+      <a class="nav-download" href="#download">GET THE APP <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="comic-label"><span class="label-star">★</span> YOUR NEXT LEARNING ADVENTURE!</div>
+        <h1>BIG ADVENTURES.<br><span class="headline-highlight">BRIGHTER</span> LEARNING!</h1>
+        <p class="hero-text">Meet Rexy, your dino-sized learning buddy! Explore fun activities, discover new skills, and learn at your own pace.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#download">DOWNLOAD REXY <span class="button-arrow">➜</span></a>
+          <a class="button button-secondary" href="#games">EXPLORE THE GAMES</a>
+        </div>
+        <div class="trust-note"><span class="check-bubble">✓</span> Made for curious minds and growing learners</div>
+      </div>
+
+      <div class="hero-art" aria-label="Rexy the friendly green dinosaur mascot">
+        <div class="burst burst-back"></div>
+        <div class="floating-tag tag-top">LET'S LEARN!</div>
+        <div class="floating-tag tag-side">ROAR-SOME! <span>★</span></div>
+        <div class="dino-stage">
+          <img class="rexy-img" src="assets/rexytrike.png" alt="Rexy mascot artwork" />
+        </div>
+        <div class="learning-float float-a">A B C</div>
+        <div class="learning-float float-b">1 2 3</div>
+        <div class="learning-float float-c">★</div>
+        <div class="speech-bubble">Hi, friend!<br>Let's play & learn!</div>
+      </div>
+    </section>
+
+    <div class="comic-strip" aria-hidden="true">
+      <span>PLAY!</span><span>DISCOVER!</span><span>GROW!</span><span>ROAR!</span>
+    </div>
+
+    <section class="section-wrap games-section" id="games">
+      <div class="section-heading">
+        <span class="eyebrow">PICK YOUR NEXT QUEST</span>
+        <h2>LEARNING IS A <span class="underline-swoosh">SUPERPOWER!</span></h2>
+        <p>Every little step is a big win. What will you explore today?</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card card-mint">
+          <div class="feature-icon icon-book" aria-hidden="true"><span>ABC</span></div>
+          <span class="card-number">01</span>
+          <h3>PLAY & DISCOVER</h3>
+          <p>Explore letters, numbers, colors, shapes, stories, and memory challenges.</p>
+          <span class="comic-caption">LET'S GO! <b>↗</b></span>
+        </article>
+        <article class="feature-card card-yellow">
+          <div class="feature-icon icon-star" aria-hidden="true">★</div>
+          <span class="card-number">02</span>
+          <h3>LEARN YOUR WAY</h3>
+          <p>Enjoy friendly activities designed to make learning feel welcoming and fun.</p>
+          <span class="comic-caption">YOU GOT THIS! <b>✦</b></span>
+        </article>
+        <article class="feature-card card-blue">
+          <div class="feature-icon icon-heart" aria-hidden="true">♥</div>
+          <span class="card-number">03</span>
+          <h3>GROW TOGETHER</h3>
+          <p>Celebrate progress and invite parents and teachers to support each new milestone.</p>
+          <span class="comic-caption">TEAM REXY! <b>★</b></span>
+        </article>
+      </div>
+      <div class="rexy-art-row" aria-label="More Rexy artwork">
+        <img src="assets/rexyhuh.png" alt="Rexy character artwork" loading="lazy" />
+        <p><strong>ROAR-SOME LEARNING!</strong><br>Different ways to play, explore, and grow.</p>
+      </div>
+    </section>
+
+    <section class="download-section" id="download">
+      <div class="download-dots" aria-hidden="true"></div>
+      <div class="download-inner">
+        <div class="download-mascot"><img src="assets/rexy1.png" alt="Rexy mascot" /></div>
+        <div class="download-copy">
+          <span class="eyebrow eyebrow-light">READY, SET, ROAR!</span>
+          <h2>YOUR NEXT ADVENTURE<br>STARTS WITH REXY.</h2>
+          <p>Bring the fun along! Choose your download option below.</p>
+          <div class="download-actions">
+            <!-- Replace the placeholder URL in script.js with your real APK or official download page. -->
+            <a class="button button-download" id="androidDownload" href="#download">⬇ DOWNLOAD FOR ANDROID</a>
+            <a class="button button-outline-light" id="webAppLink" href="#download">OPEN WEB APP</a>
+          </div>
+          <p class="download-help" id="downloadHelp" role="status">Android download and web app links will be available here once the official links are added.</p>
+        </div>
+        <div class="download-sticker">FREE<br><span>TO EXPLORE!</span></div>
+      </div>
+    </section>
+
+    <section class="section-wrap grownups-section" id="grownups">
+      <div class="grownups-card">
+        <div class="grownups-icon" aria-hidden="true">♥</div>
+        <div>
+          <span class="eyebrow">A NOTE FOR PARENTS & TEACHERS</span>
+          <h2>EVERY LEARNER HAS THEIR OWN KIND OF MAGIC.</h2>
+          <p>REXY APP is designed to make educational play more engaging and inclusive, especially for learners who benefit from varied ways to explore skills. Use activities alongside the guidance and learning routines that work best for each child.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section-wrap">
+      <div class="final-cta-copy">
+        <span class="eyebrow">THE REXY CREW IS WAITING</span>
+        <h2>SMALL STEPS.<br><span>BIG ROARS.</span></h2>
+      </div>
+      <a class="button button-primary" href="#download">MEET REXY NOW <span class="button-arrow">➜</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made for curious minds. Built for brighter learning.</p>
+    <div class="partner-logos" aria-label="Team and game logos">
+    </div>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <small>© <span id="year"></span> REXY APP · A DINODEV project</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
